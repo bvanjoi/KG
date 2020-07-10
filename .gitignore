@@ -1,0 +1,42 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+
+# web/ 
+## dependencies
+web/node_modules/
+web/.pnp
+web/.pnp.js
+
+## testing
+web/coverage
+
+## production
+web/build
+
+## misc
+web/.DS_Store
+web/.env.local
+web/.env.development.local
+web/.env.test.local
+web/.env.production.local
+
+web/npm-debug.log*
+web/yarn-debug.log*
+web/yarn-error.log*
+
+# data
+clear/dataBaike.json
+clear/dictBaike.txt
+data/data.json
+data/dict.txt
+neo4j/data
+service/dict.txt
+service/stopwords.txt
+spider/baike/dataBaike.json
+spider/baike/dictBaike.txt
+spider/baike/hadGone.txt
+
+# others
+.idea
+.vscode
+nlp学习.docx

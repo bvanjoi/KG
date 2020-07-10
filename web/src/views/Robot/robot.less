@@ -1,0 +1,41 @@
+@width: 1000px;
+
+div{
+    height: 100%;
+    overflow: hidden;
+}
+
+.window{
+    height: 600px;
+    width: @width;
+    border: 1px solid #dedede;    
+    margin: auto;
+    margin-top: 5%;
+}
+
+.left {
+    border-right: 1px solid #dedede;
+    width: @width/2;
+    float: left;
+}
+
+.input {
+    height: 200px;
+    border-bottom: 1px solid #dedede;
+}
+
+.text {
+    margin-top: 45px;
+    width: @width * 0.375;
+    margin-left: 62.5px;
+    overflow: auto;
+
+}
+.cut, .right {
+    padding: 20px;
+}
+.button {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}

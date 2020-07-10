@@ -1,0 +1,14 @@
+.search{
+    width: 300px;
+    position: fixed;
+    margin: auto;
+    /* left:300px; */
+    right:350px;
+    top:13px;
+    bottom:0;
+}
+
+div{
+    height: 100%;
+    overflow: hidden;
+}
